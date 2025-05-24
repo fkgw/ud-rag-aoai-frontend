@@ -10,7 +10,7 @@ export const getOnYourData = async (message: string): Promise<any[]> => {
 
         console.log('~ On your data start ~')
 
-        const apiUrl = 'https://api-webapp-udemy-ragragrag.azurewebsites.net/conversation';
+        const apiUrl = 'https://api-webapp-udemy-rag-0524-02.azurewebsites.net/conversation';
 
         const requestData = {
             messages: [
